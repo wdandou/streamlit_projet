@@ -17,4 +17,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://wdandou:$HF_TOKEN@huggingface.co/spaces/wdandou/streamlit_projet main
+          git push --force https://user:$HF_TOKEN@huggingface.co/spaces/wdandou/streamlit_projet main
+
